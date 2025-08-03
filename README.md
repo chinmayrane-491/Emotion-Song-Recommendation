@@ -9,13 +9,19 @@ A machine learning project that recommends YouTube songs based on user's detecte
 
 ## 📁 Folder Structure
 project/
+
 ├── model/ # Trained model (.h5)
+
 ├── haarcascade/ # Face detection XML
+
 ├── data/ # FER-2013 dataset
+
 ├── emotion_detector.py
+
 ├── recommend.py
+
 ├── main.py
-├── requirements.txt
+
 └── README.md
 
 
@@ -39,8 +45,11 @@ Click on **"Download"** to get `fer2013.zip`.
 
 Your structure should look like:
 Emotion-YouTube-Song-Recommendation/
+
 └── data/
+
 ├── train/
+
 └── test/
 
 
@@ -52,7 +61,3 @@ In your Python code, set dataset paths like:
 train_dir = "data/fer2013/train/"
 test_dir = "data/fer2013/test/"
 
-
-
-```bash
-pip install kaggle
